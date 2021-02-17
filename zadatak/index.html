@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang = "hr">
+    <head>
+    <meta charset="UTF-8">
+	<meta name="application-name" content="Dodavanje proizvoda">
+	<meta name="author" content="Luka Štefanić">
+	<meta name ="description" content="Unos proizvoda u listu te mogućnost brisanja dodanih proizvoda">
+	<meta name="keywords" content="unos, brisanje, proizvod, lista">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+	<script type="text/javascript" src="javascript.js"></script>
+	<title> Products app </title>
+    </head>
+	
+    <body>
+       <div class="grid">
+           
+        <header class="spojiStupceZaglavlje">          
+            
+                <h1 class="centriraj"> Products app </h1>   
+	</header>
+         
+		<section class="spojiStupceSekcije"> 
+		<form name="products" id="products" class="urediFormu" method="post">
+		<label class ="responzivnaForma" for="product_name"><b> Product title </b></label><br/>
+        <input type="text" id="product_name" name="product_name" placeholder="Enter product...."/><br/><br/><br/>
+		<input type="button" id="add_product" name="add_product" value="Add product" onclick="unesiElementUListu()"/>
+		        <input type="button" value="Delete all products" onclick="obrisiElementeListe()"/>
+		</form>
+						
+		</section>
+		
+		<div class="oblik1 spojiStupceSekcije">
+		<p style="display: inline;"> Number of products:</p> <p style="display: inline;" id="brojac"> </p>
+		<ul id="lista" name="lista"></ul>
+		</div>
+        <footer class="spojiStupcePodnozje centriraj" >
+		<script>
+		var brojac = document.getElementById("brojac");
+		brojac.innerHTML = 0;
+		</script>
+            <br/>
+            <br/>
+            <br/>                       
+            </a>
+	</footer>
+    </div>     	
+    </body>
+</html>

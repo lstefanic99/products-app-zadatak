@@ -1,0 +1,131 @@
+
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    height: 100%;
+    padding: 10px;
+    grid-row-gap:50px;  
+}
+
+.spojiStupceZaglavlje{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.spojiStupcePodnozje{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+body{	
+   background-color: #242582;
+    background-repeat: no-repeat;
+    background-attachment: fixed;      
+}
+
+.centriraj {
+    text-align: center;
+}
+
+
+.urediFormu {
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    left: auto; 
+}
+
+.oblik1 {
+    border-radius: 20px;
+    background: #553d67;
+    padding: 5px;
+    margin: auto;
+    border: 5px solid black;
+    width: 800px;
+    height: 100%; 
+    top: 100px;
+    color: white;
+    font-family: tahoma;   
+    font-size: 30px;
+}
+
+
+li{
+    margin: 0 0 50px 0;
+}
+      
+
+label{
+    color: white;
+    font-family: tahoma;
+    display: inline-block;
+}
+
+p, a {
+    font-family: tahoma;
+    color: white;
+    font-size: 15px;
+}
+
+h1 {
+	font-family: tahoma;
+	color: white;
+	font-size: 30px;
+}
+
+
+input[type=text], li {
+	width: 40%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	  background-color: gray;
+  color: white;
+}
+
+input[type=text]:focus {
+  border: 5px solid #white;
+}
+
+
+input[type=button] {
+	font-size: 20px;
+	border-radius: 8px;
+	  background-color: #553d67;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+	text-align:center;
+	margin: 0 auto;
+	width:40%;
+	border: 1px solid #ddd;
+}
+
+li:hover{
+	background-color: red;
+}
+
+@media (max-width: 1200px) {
+		.spojiStupceSekcije {
+		grid-column: 1 / span 2;
+		grid-row: 2;
+}
+
+	.oblik1{
+		width: 100%;
+		display: block;
+		position: relative;
+		top: 250px;
+	}
+	
+
+}
+
+ 
