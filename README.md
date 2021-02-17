@@ -1,6 +1,6 @@
 # Products App zadatak
 
-U ovom repozitoriju možete pronaći tri datoteke: 
+U ovom repozitoriju možete pronaći tri datoteke unutar direktorija <em>zadatak</em>: 
 <ul>
   <li>index.html - HTML stranica koja sadrži rješenje zadatka</li>
   <li>style.css - CSS datoteka koja sadrži opisnik stilova korištenih prilikom izrade stranice</li>
