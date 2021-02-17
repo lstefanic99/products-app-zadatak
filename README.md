@@ -1,1 +1,1 @@
-# products-app-zadatak
+# Products App zadatak
